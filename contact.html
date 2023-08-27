@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Page</title>
+	<style type="text/css">
+	header {
+			display: flex;
+			background-color: white;
+			justify-content: space-between;
+			padding-left: 20px;
+			padding-right: 20px;
+			height: 75px;
+	      }
+
+	      .section1 {
+		  	display: flex;
+			background-color: black;
+			justify-content: center;
+			padding-left: 100px;
+			padding-right: 100px;
+			justify-content: center;
+			align-items: center;
+			height: 250px;
+			color: darkorange;
+		  }
+
+		  a {
+		  	list-style: none;
+		  	padding: 20px;
+		  	color: black;
+		  	text-decoration: none;
+		  }
+
+		  ul {
+			display: flex;
+			justify-content: space-evenly;
+			padding-left: 20px;
+			padding-right: 20px;
+			list-style: none;
+		}
+		a:hover{
+		  	color: darkorange;
+		  }
+
+        .container {
+		  	text-align: center;
+		  	display: flex;
+		  	justify-content: center;
+		  	justify-content: space-evenly;
+		  	border: 1px solid;
+		  	padding-top: 10px;
+		  	padding-bottom: 10px;
+
+		  }
+
+		  .box {
+		  	display: flex;
+            justify-content: center;
+            align-items: center;
+		  }
+
+		  .box > p {
+		  	color: black;
+		  }
+
+        .text {
+        	text-align: center;
+        }
+
+        	.down {
+		  	display: flex;
+			background-color: black;
+			justify-content: space-between;
+			padding-left: 20px;
+			padding-right: 20px;
+			height: 75px;
+		  }
+
+		  #connect {
+		  	color: white;
+		  	font-size: 18px;
+		  	padding-top: 15px;
+		  }
+
+		  .first {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    background-color: #f7f7f7;
+}
+
+#go form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#go .name,
+#go .subject,
+#go .select,
+#go .msg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#go label {
+    font-weight: bold;
+}
+
+#go input[type="text"],
+#go input[type="email"],
+#go input[type="radio"],
+#go textarea,
+#go select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#go select {
+    width: 100%;
+}
+
+#go .name input,
+#go .subject input,
+#go .select input {
+    margin-top: 5px;
+}
+
+#go .msg textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#go button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#go button:hover {
+    background-color: #0056b3;
+}
+
+.div1 {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+button {
+	width: 500px;
+}
+
+.div4 {
+	width: 1000;
+	margin-bottom: 10px;
+}
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		
+		<h1>Seydenu Sam Seneh Sr.</h1>
+
+		<ul id="list1">
+			<li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</header>
+
+	<section class="section1">
+		
+		<h3>Contact Me</h3>
+		
+	</section>
+
+	<h1 class="text">Get connected with me on social media</h1>
+        <p class="text">Let's program together.</p>
+<div class="container">
+	<section id="go">
+	<form>
+	<div class="div1">
+        <label>Name </label>
+            <input type="text">
+
+        <label>Email</label>
+            <input type="email">
+         </div>
+
+        <div class="div2">
+            <label>Subject</label>
+            <input type="text" /> 
+        </div>
+
+
+        <div class="div3">
+
+        	<label>Gender:</label>
+                    <div class="label">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female">
+
+            <label>County: </label>
+            <select>
+                <option>select County</option>
+                <option>Bomi County</option>
+                <option>Bong County</option>
+                <option>Maryland County</option>
+                <option>Sinoe County</option>
+                <option>Margibi County</option>
+                <option>Nimba County</option>
+                <option>Grand Kru County</option>
+                <option>Rivercess County</option>
+                <option>River Gee County</option>
+                <option>Rivercess County</option>
+                <option>Gbarpolu County</option>
+                <option>Lofa County</option>
+                <option>Grand Gedeh County</option>
+                <option>Grand Capemount County</option>
+                <option>Grand Bassa County</option>
+             </select>
+         </div>
+
+         <div class="div4">
+
+             <label class="msg">Message:</label>
+             <input type="text">
+
+          </div>
+
+          <div class="div5">
+    
+             <button>Submit</button>
+           </div>
+	</div>
+</form>
+</section>
+
+</div>
+
+<footer class="down">
+			<div>
+				<p id="connect">Connect with me on Social Media</p>
+			</div>
+
+			<div class="down">
+				<a href="https://web.facebook.com/profile.php?id=100010166381956"><img width="40" src="fb.png"></a>
+				<a href="https://github.com/Seydenu"><img width="40" src="github.png"></a>
+				<a href="https://www.instagram.com/sam_jata/"><img width="40" src="ig.jpeg"></a> 
+
+			</div>
+		</footer>
+
+
+</body>
+</html>

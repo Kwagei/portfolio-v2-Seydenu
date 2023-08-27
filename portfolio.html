@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio Page</title>
+	<style type="text/css">
+		
+        header {
+			display: flex;
+			background-color: white;
+			justify-content: space-between;
+			padding-left: 20px;
+			padding-right: 20px;
+			height: 75px;
+	      }
+
+	      .section1 {
+		  	display: flex;
+			background-color: black;
+			justify-content: center;
+			padding-left: 100px;
+			padding-right: 100px;
+			justify-content: center;
+			align-items: center;
+			height: 250px;
+			color: darkorange;
+		  }
+
+		  a {
+		  	list-style: none;
+		  	padding: 20px;
+		  	color: black;
+		  	text-decoration: none;
+		  }
+
+		  ul {
+			display: flex;
+			justify-content: space-evenly;
+			padding-left: 20px;
+			padding-right: 20px;
+			list-style: none;
+		}
+		a:hover{
+		  	color: darkorange;
+		  }
+
+		 .container {
+		  	display: flex;
+		  	justify-content: space-between;
+		  }
+
+		  .box {
+		  	flex: 1;
+		  	text-align: center;
+		  	padding: 20px;
+		  	border: 1px solid;
+		  	margin-right: 10px;
+		  	margin-left: 10px;
+		  	margin-bottom: 10px;
+		  	margin-top: 10px;
+		  }
+
+		  .box > p {
+		  	color: black;
+		  }
+
+		  .down {
+		  	display: flex;
+			background-color: black;
+			justify-content: space-between;
+			padding-left: 20px;
+			padding-right: 20px;
+			height: 75px;
+		  }
+
+		  #connect {
+		  	color: white;
+		  	font-size: 18px;
+		  	padding-top: 15px;
+		  }
+
+		  .text {
+		  	text-align: center;
+		  }
+
+
+
+
+	</style>
+</head>
+<body>
+<header>
+		
+		<h1>Seydenu Sam Seneh Sr.</h1>
+
+		<ul id="list1">
+			<li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</header>
+
+	<section class="section1">
+		
+		<h3>My Portfolio</h3>
+		
+	</section>
+
+	<h1 class="text">Latest Projects</h1>
+        <p class="text">Let's program together</p>
+
+	<div class="container">
+			<div class="box">
+				<img width="250" src="counter.jpeg">
+				<h4>Counter App</h4>
+				<p>This is a program that keeps adding or subtracting the number if you touch the add or minus buttons</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+
+			<div class="box">
+				<img width="250" src="Dom.jpeg">
+				<h4>D.O.M Summary</h4>
+				<p>This is a summary of the DOM manipulation</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+
+			<div class="box">
+				<img width="250" src="function.jpeg">
+				<h4>Function Summary</h4>
+				<p>This is a summary of a video of how functions work in JvaScript</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="box">
+				<img width="250" src="html.jpeg">
+				<h4>HTML Web Summary</h4>
+				<p>This is a sample of a webpage made by me on HTML Web.</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+
+			<div class="box">
+				<img width="250" src="layout.jpeg">
+				<h4>Summary on how Layout is used</h4>
+				<p>This is a summary of how layout can be used to design web pages.</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+
+			<div class="box">
+				<img width="250" src="md.jpeg">
+				<h4>Summary on a JavaScript video</h4>
+				<p>This is a summary of a JavaScript video, but this one was done in a Markdown File.</p>
+				<a href="blog.html"><strong>Read More</strong></a>
+			</div>
+		</div>
+
+		<footer class="down">
+			<div>
+				<p id="connect">Connect with me on Social Media</p>
+			</div>
+
+			<div class="down">
+				<a href="https://web.facebook.com/profile.php?id=100010166381956"><img width="40" src="fb.png"></a>
+				<a href="https://github.com/Seydenu"><img width="40" src="github.png"></a>
+				<a href="https://www.instagram.com/sam_jata/"><img width="40" src="ig.jpeg"></a> 
+
+			</div>
+		</footer>
+</body>
+</html>
